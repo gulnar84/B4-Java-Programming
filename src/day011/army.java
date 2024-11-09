@@ -32,6 +32,7 @@ public class army {
                 System.out.println("You must have a high school diploma");
             }
 
+
         if ( age<18|| age>35) {
             System.out.println("\t\tYou must be between 18 to 35 years old");
 
