@@ -1,4 +1,4 @@
-package day09_scanner;
+package day09_IfElseSatement;
 
 import java.util.Scanner;
 
