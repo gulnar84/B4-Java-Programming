@@ -1,4 +1,4 @@
-package day09_IfElseSatement;
+package day09_scanner;
 
 public class IfElseStatement {
     public static void main(String[] args) {

@@ -13,26 +13,26 @@ package day09_scanner;
  */
 import java.util.Scanner;
 
-public class BankAccount {
-    public static void main(String[] args) {
-        Scanner key=new Scanner(System.in);
-        double balance= key.nextDouble();
-        double withdraw= key.nextDouble();
+    public class BankAccount {
+        public static void main(String[] args) {
+            Scanner key = new Scanner(System.in);
+            double balance = key.nextDouble();
+            double withdraw = key.nextDouble();
 
-        System.out.print("What is your balance: $");
-        balance = key.nextDouble();
-        System.out.println("\tYour balance is: $" + balance);
+            System.out.print("What is your balance: $");
+            balance = key.nextDouble();
+            System.out.println("\tYour balance is: $" + balance);
 
 
-        System.out.print("How much do you want to withdraw? $");
-        withdraw = key.nextDouble();
-        System.out.println("\tYou are requesting to withdraw $" + withdraw);
+            System.out.print("How much do you want to withdraw? $");
+            withdraw = key.nextDouble();
+            System.out.println("\tYou are requesting to withdraw $" + withdraw);
 
-        //balance = balance - withdraw;
-        balance -= withdraw;//balance=balance-withdrow shorthand operator
-        System.out.println("You balance is: $" + balance);
+            //balance = balance - withdraw;
+            balance -= withdraw;//balance=balance-withdrow shorthand operator
+            System.out.println("You balance is: $" + balance);
 
-        // I still want to withdraw again. --- >  200
+            // I still want to withdraw again. --- >  200
 
         /*
             if withdraw amount < balance
@@ -41,17 +41,19 @@ public class BankAccount {
                 - updated the balance
          */
 
-        System.out.print("How much do you want to withdraw? $");
-        withdraw = key.nextDouble();
+            System.out.print("How much do you want to withdraw? $");
+            withdraw = key.nextDouble();
 
 
-        if (withdraw > balance) {
-            System.out.println("Not enough money");
-        } else {
-            balance -= withdraw;
-            System.out.println("You new balance is $" + balance);
+            if (withdraw > balance) {
+                System.out.println("Not enough money");
+            } else {
+                balance -= withdraw;
+                System.out.println("You new balance is $" + balance);
+            }
+
+
         }
-
-
     }
-}
+
+

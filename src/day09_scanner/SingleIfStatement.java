@@ -1,4 +1,4 @@
-package day09_IfElseSatement;
+package day09_scanner;
 
 public class SingleIfStatement {
     public static void main(String[] args) {
