@@ -1,4 +1,4 @@
-package day_06_arithmetic_operators;
+package day06_arithmetic_operators;
 
 public class BasicCalculator {
     public static void main(String[] args) {
