@@ -29,7 +29,7 @@ public class BankAccount {
         System.out.println("\tYou are requesting to withdraw $" + withdraw);
 
         //balance = balance - withdraw;
-        balance -= withdraw;
+        balance -= withdraw;//balance=balance-withdrow shorthand operator
         System.out.println("You balance is: $" + balance);
 
         // I still want to withdraw again. --- >  200
