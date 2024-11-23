@@ -1,6 +1,6 @@
 package day05_variable;
 
-public class GulnarChar {
+public class  GulnarChar {
 
     public static void main(String[] args) {
         char letter1 = 'G';
