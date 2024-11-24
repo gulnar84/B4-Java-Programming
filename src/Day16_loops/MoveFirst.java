@@ -23,6 +23,7 @@ public class MoveFirst {
 
         String part1 = sentence.substring(0, sentence.indexOf(" ") );
 
+
         // P2
         // YES - substring(index);
         // sentence.substring( 6  ); --- >  sentence.substring( sentence.indexOf(" ") );
