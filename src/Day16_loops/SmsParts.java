@@ -11,6 +11,7 @@ public class SmsParts {
     public static void main(String[] args) {
         String message = "Sender: <James Bond>. From Number: [202-123-3456]. + Message: {I love programming and problem solving}";
 
+
         // java
         // 0123 --- length()-1
         // P1
