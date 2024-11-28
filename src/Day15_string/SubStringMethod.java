@@ -1,4 +1,4 @@
-package Day15;
+package Day15_string;
 
 public class SubStringMethod {
     public static void main(String[] args) {

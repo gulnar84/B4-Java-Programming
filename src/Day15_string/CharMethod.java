@@ -1,4 +1,4 @@
-package Day15;
+package Day15_string;
 
 public class CharMethod {
     public static void main(String[] args) {

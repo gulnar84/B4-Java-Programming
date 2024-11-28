@@ -1,4 +1,7 @@
 package Day16_loops;
+
+import java.util.Scanner;
+
 /*
     [SMS parts]
     Given a String in the following format:
@@ -14,8 +17,7 @@ public class SmsParts {
 
         // java
         // 0123 --- length()-1
-        // P1
-        // substring(index1, index2); --- > message.substring (message.indexOf("<") + 1, message.indexOf(">")) ;
+        // P1        // substring(index1, index2); --- > message.substring (message.indexOf("<") + 1, message.indexOf(">")) ;
         // <James Bond>
         // index1 --- > message.indexOf("<");
         // index2 --- > message.indexOf(">");
@@ -24,11 +26,15 @@ public class SmsParts {
 
         // P2
         String part2 = message.substring (message.indexOf("[") + 1, message.indexOf("]")) ;
+
         System.out.println(part2);
 
         // P3
-        String part3 = message.substring (message.indexOf("{") + 1, message.indexOf("}")) ;
+        String part3 = message.substring (message.indexOf("{")+1, message.indexOf("}")) ;
         //String part3 = message.substring (message.indexOf("{") + 1, message.length()-1 ) ;  // this will do the same thing as above
         System.out.println(part3);
 
-    }}
+
+        }
+
+    }

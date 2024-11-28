@@ -1,6 +1,6 @@
-package Day15;
+package Day15_string;
 import java.util.Scanner;  // Import Scanner class from util package
-import java.util.*;  // * --- > everything. Import Everything from util package
+
 /*
     NOTE: FINDS THE BIGGEST AND CHECK IF THE BIGGEST HAS "A" IN IT.
     NOTE: All three words have a

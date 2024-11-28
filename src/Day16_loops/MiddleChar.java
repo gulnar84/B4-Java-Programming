@@ -26,10 +26,10 @@ public class MiddleChar {
 
         if (word.length() % 2 == 0) {
             // mid1 = 8/2 = 4 - 1 = 3, mid2 = 8/2 = 4
-            mid = word.substring(word.length() / 2 - 1, word.length() / 2 + 1);
+            mid = word.substring(word.length() / 2 - 1, word.length() / 2 + 1);//p,h/2=4 but but not included that is why +1
             // mid = "" + word.charAt( word.length()/2 - 1) + word.charAt( word.length()/2  ); // this will do the same thing as one above
         } else {
-            // mid = word.substring(  word.length()/2,  word.length()/2 + 1);  // This will do the same thing as one below
+            // mid = word.substring(  word.length()/2,  word.length()/2 + 1);  // This will do the same thing as one below// char at exact regem verir ona gore +1 lazim deyil
             mid = "" + word.charAt(word.length() / 2); // this will do the same thing
             System.out.println(mid);
         }

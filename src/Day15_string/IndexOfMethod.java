@@ -1,6 +1,4 @@
-package Day15;
-
-import com.sun.security.jgss.GSSUtil;
+package Day15_string;
 
 public class IndexOfMethod {
     public static void main(String[] args) {

@@ -7,6 +7,7 @@ package Day16_loops;
         Output: is a fun language Java
         Hint: Use indexOf and substring
  */
+import java.util.Locale;
 import java.util.Scanner;
 
 public class MoveFirst {
@@ -21,7 +22,7 @@ public class MoveFirst {
         // 4 --- > need to make it dynamically --- >find the index of first space
         // sentence.indexOf(" "); ---- > index of first space
 
-        String part1 = sentence.substring(0, sentence.indexOf(" ") );
+        String part1 = sentence.substring(0,sentence.indexOf(" "));
 
         // P2
         // YES - substring(index);
@@ -29,7 +30,7 @@ public class MoveFirst {
         // 6 --- > need to make it dynamically --- > index of first space
         // sentence.indexOf(" "); --- > index of first space
         // MAY BE - substring(index1, index2);
-        // String part2 = sentence.substring( sentence.indexOf(" ") + 1); // It does the same thing as one below
+        // String part2 = sentence.substring( sentence.indexOf(" ") + 1); // It does the same thing as one below-trim
 
         String part2 = sentence.substring( sentence.indexOf(" ") ).trim();
 
@@ -38,6 +39,8 @@ public class MoveFirst {
         //System.out.println(part2);
 
         System.out.println(part2 + " " + part1);
+        //System.out.println(part2 + " " + part1.substring(0,1).toUpperCase()+part1.substring(1,4).toLowerCase());
+        //System.out.println(part2.substring(0,1).toUpperCase()+part2.substring(1).toLowerCase() + " " + part1);
   /*
             TODO: Home Practice
                 Handle the case where user provides only single word as a sentence.

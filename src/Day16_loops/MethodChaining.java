@@ -22,9 +22,8 @@ public class MethodChaining {
         // NOT VALID --- > sentence.trim().charAt(0).length();
         // NTO VALID --- > sentence.trim().substring(4).substring(0,3).length().charAt(2);
         sentence = "Wednesday is a good day. We hava java class   234     ";
-        sentence = sentence.replace("234", "").trim().substring(0, sentence.indexOf(".")).replace(" ", "-");
+        sentence = sentence.replace("234", "").trim().substring(0, sentence.indexOf(".")).replace (" ", "-");
         System.out.println(sentence);
-
 
     }
 }

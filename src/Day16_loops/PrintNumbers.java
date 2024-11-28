@@ -20,6 +20,7 @@ public class PrintNumbers {
 
 
         System.out.println("----");
+
         int i = 1;
         while (i <= 100) {
             // Instead of printing all number up until 100, print only even numbers

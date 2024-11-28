@@ -1,4 +1,4 @@
-package Day15;
+package Day15_string;
 import java.util.Scanner;
 
 /*
