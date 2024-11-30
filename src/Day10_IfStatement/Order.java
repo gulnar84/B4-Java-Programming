@@ -1,4 +1,4 @@
-package Day010_IfStatement;
+package Day10_IfStatement;
 
 import java.util.Scanner;
 /*

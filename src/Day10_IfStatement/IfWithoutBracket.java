@@ -1,4 +1,4 @@
-package Day010_IfStatement;
+package Day10_IfStatement;
 
 public class IfWithoutBracket {
     public static void main(String[] args) {

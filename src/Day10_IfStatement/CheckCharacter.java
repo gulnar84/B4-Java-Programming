@@ -1,4 +1,4 @@
-package Day010_IfStatement;
+package Day10_IfStatement;
 
 /*
     create a char variable with a letter (can only do this one hardcoded, no Scanner method for char)

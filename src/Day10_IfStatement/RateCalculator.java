@@ -1,4 +1,4 @@
-package Day010_IfStatement;
+package Day10_IfStatement;
 /*
     write a program for a rate calculator: RateCalculator
         1. asks the user to enter an  annual salary (double)
