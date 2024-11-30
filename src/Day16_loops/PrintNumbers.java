@@ -11,21 +11,23 @@ public class PrintNumbers {
 
         int num = 2;
         while (num <= 100) {
+
             System.out.println(num);
             num += 2; // num = num + 2;
         }
 
-        System.out.println();
+        System.out.println("__");
         System.out.println(num);
 
 
-        System.out.println("----");
+
+        System.out.println("----_________-");
 
         int i = 1;
         while (i <= 100) {
             // Instead of printing all number up until 100, print only even numbers
             if (i % 2 == 0) {
-                System.out.println(i);
+                System.out.println(i);//
             }
             i++;
         }
