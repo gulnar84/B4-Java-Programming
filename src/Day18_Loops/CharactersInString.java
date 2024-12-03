@@ -17,7 +17,6 @@ public class CharactersInString {
             System.out.println(asciiNum);
 //            System.out.println(0 + word.charAt(i));  // this is doing the same thing
 //            System.out.println( (int)word.charAt(i)); // this is doing the same thing
-
         }
 
     }

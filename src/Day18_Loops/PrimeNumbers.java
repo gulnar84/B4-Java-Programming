@@ -24,6 +24,7 @@ public class PrimeNumbers {
     public static void main(String[] args) {
         Scanner key = new Scanner(System.in);
         System.out.print("Please, enter a number: ");
+
         int num = key.nextInt();
         int count = 0;
 

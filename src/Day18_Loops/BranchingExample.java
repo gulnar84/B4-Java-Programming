@@ -20,6 +20,8 @@ public class BranchingExample {
             break;
         }
         System.out.println();
+        System.out.println("______");
+
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + " ");
             if (i == 5) {
@@ -39,9 +41,10 @@ public class BranchingExample {
         }
 
         System.out.println();
+        System.out.println("______________");
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + " ");
-            if (i == 5) {
+            if (i == 5) {  // 5 is true just continue iteration
                 continue;
             }
             System.out.println("Hi");

@@ -16,7 +16,7 @@ public class CountLetters {
 
         String word = "aabbcaa";
         //             0123456
-        char letter = 'z';
+        char letter = 'a';
         int count = 0;
 
         /*

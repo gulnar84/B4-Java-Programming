@@ -19,9 +19,9 @@ package Day18_Loops;
             String sentence = key.nextLine().trim(); // This has multiple words in this sentence
 
             int countSpace = 0;
-
             for (int i = 0; i < sentence.length(); i++) {
-                if (sentence.charAt(i) == ' ') {
+                if (sentence.charAt(i) == ' ') {          // how many empty spaces if i have that will give me how many words i have, 4 empty space that means 5 words
+
                     countSpace++;
                 }
             }

@@ -32,8 +32,8 @@ public class Palindrome {
 
         //  initialization; condition; iteration)
         for (int i = word.length() - 1; i >= 0; i--) {
-            //System.out.print( word.charAt( i )   );
-            reversed += word.charAt(i);   // a | a + v | av + a | ava + j
+            //System.out.print( word.charAt( i )   );     // i>-1 or >0 same thing
+            reversed += word.charAt(i);   // a | a + v | av + a | ava + j //reversed =reversed+ word.charAt(i);
         }
 
 

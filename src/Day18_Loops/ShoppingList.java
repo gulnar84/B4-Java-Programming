@@ -15,7 +15,7 @@ public class ShoppingList {
         Scanner scanner = new Scanner(System.in);
 
         // String userItem = "";
-        String shoppingList = "Your Shopping Lst Items: ";
+        String shoppingList = "Your Shopping List Items: ";
         String userAnswer = "";
 
 
@@ -24,7 +24,7 @@ public class ShoppingList {
             System.out.print("Please, enter the name of the item? ");
             // userItem = scanner.nextLine(); // Banana
             // shoppingList += userItem;
-            shoppingList = shoppingList + "\n\t" + scanner.nextLine(); // Banana
+            shoppingList = shoppingList + "\n\t" + scanner.nextLine(); // Banana,bread \n\t
 
 
             System.out.print("Do you want to add more item (yes/no): ");
