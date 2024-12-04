@@ -60,6 +60,5 @@ public class example {
             }
             System.out.println();
 
-
         }}}
 
