@@ -13,7 +13,7 @@ public class NestedLoopExample {
 
         System.out.println("---------------");
         // with loop
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) { // int =0 and i<=4
             System.out.println("Hello Loopcamp!");
         }
 
@@ -43,7 +43,9 @@ public class NestedLoopExample {
         for (int i = 1; i <= 3; i++) { // OUTER LOOP
 
             System.out.println("Hello Galaxy");
-            for (int j = 1; j <= 100; j++) {  // INNER LOOP
+
+
+            for (int j = 1; j <= 2; j++) {  // INNER LOOP
                 System.out.println("Hello Moon");
             }
             System.out.println();
@@ -55,13 +57,12 @@ public class NestedLoopExample {
 
         for (int i = 0; i < 3; i++) {
 
-            for (int j = 0; j < 6; j++) {
+            for (int j = 0; j < 5; j++) {
                 System.out.println(10);
             }
             System.out.println();
 
         }
-
         // Every cycle of the OUTER loop, INNER loop happens 6 times
 
 

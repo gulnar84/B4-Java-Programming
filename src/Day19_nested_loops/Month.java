@@ -33,7 +33,7 @@ public class Month {
                 for (int k = 1; k <= 24 ; k++) {
                     System.out.println("\t\tHour " + k);
                 }
-                System.out.println();
+               System.out.println();
 
             }
             System.out.println();
@@ -51,6 +51,6 @@ public class Month {
 
 
 
-    }
-    }
+    }}
+
 

@@ -46,7 +46,6 @@ public class CamelCase {
         camelcase = camelcase.replace(" ", "");
         System.out.println(camelcase);
 
-
         /*
             TODO: Practice Task
                 Implement this code with while loop
