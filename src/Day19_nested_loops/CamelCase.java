@@ -39,7 +39,6 @@ public class CamelCase {
             }
 
         }
-
         // today is sunday
         // 01234567890....
 
@@ -51,6 +50,8 @@ public class CamelCase {
                 Implement this code with while loop
                     Hint: while loop condition - continue as long as there space
          */
+
+
 
     }
 }
